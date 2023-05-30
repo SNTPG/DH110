@@ -15,7 +15,7 @@ This application will be helpful for both elderly family members who are unfamil
 Drawing upon my extremely rough draft in Assignment 05, I digitized some of my wireframes in anticipation of building a high-fidelity prototype, which I did simultaneously with this assignment due to time constraints on my part. Layout and testing was done on Figma, and an impression test was conducted with a friend of mine. This process is vital to the UI design and prototyping process, as incorporating feedback from potential users is invaluable to UX as a process, as the developer may have both aesthetic and cognitive blindspots that can only be redressed through testing.
 
 ## Figma File
-[Here](https://www.figma.com/file/MmlQK8HKhxU5z8IVgiOM92/Untitled?type=design&node-id=0%3A1&t=4M3dpuIjffMgMOWg-1) is the Figma file in which I did my work. The digitized wireflow can be found in the Prototype page, as I did this assignment simultaneously with Assignment 07.
+[Here](https://www.figma.com/file/MmlQK8HKhxU5z8IVgiOM92/Untitled?type=design&node-id=0%3A1&t=4M3dpuIjffMgMOWg-1) is the Figma file in which I did my work. The digitized wireflow can be found in the [Prototype](https://www.figma.com/file/MmlQK8HKhxU5z8IVgiOM92/Satsuki-Liu---Board-Game-Buddy?type=design&node-id=87-3574) page, as I did this assignment simultaneously with Assignment 07.
 
 ## Selected Wireframe
 ![Selected wireframe.](./assets/layout.png)
