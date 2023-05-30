@@ -1,4 +1,4 @@
-# DH110 - Assignment 06
+# DH110 - Assignment 07
 
 ## Satsuki Liu - DGT HUM 110 @ UCLA, Spring '23
 This assignment is dedicated to the high-fidelty prototype of my project.
