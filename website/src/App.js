@@ -1,9 +1,26 @@
 import Assignment from './components/Assignment.js'
+import { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = "Board Game Buddy";
+  })
   return (
     <div className="App">
+      <div className="project">
+        <div className='intro-image'></div>
+        <div className='intro-text'>
+          <h1>Board Game Buddy: Making a One-Stop Shop for Mobile Board Gaming</h1>
+          <h2>A user interface/user experience project by <a href='https://github.com/SNTPG'>Satsuki Liu</a>!</h2>
+        </div>
+      </div>
+      <div className='introduction'>
+        <h3>Introduction</h3>
+        <p>This project was the quarter-long endeavor for Digital Humanities 110 @ UCLA, Spring '23. Throughout the academic term, we employed various UI and UX methods to investigate and design an application to address a specific user market for "family connection." My project focused on board games as a medium for family connection, and ultimately sought to design a high-fidelity prototype of an Android app that would aid families in learning and playing board games, either in-person or remotely.</p>
+        <h3>Design Statement</h3>
+        <p>For this project, I sought to build an interface for a mobile application dedicated to both teaching and playing board games, specifically for families. Many existing solutions provide one or the other, but are plagued by various issues, i.e. they're desktop only, they're paywalled, etc. My goal was to create a unified experience for users of all ages to both learn and play board games, such that a younger family member would have no issue teaching their elderly family members new rulesets without too much hassle, then jump right into playing with the games built into this application.</p>
+      </div>
       <div className="timeline-box">
         <Assignment
           number="1"
@@ -52,8 +69,15 @@ function App() {
         <h1>High-fidelity Prototype</h1>
         <p>Ultimately, Board Game Buddy is designed with three main tasks in mind: learning how to use the app (for those who may be more technologically illiterate), learning how to play a board game (for those who want to teach others but aren't sure how to), and being able to play these games (for those who may not be able to play with their family in person).</p>
         <p>Below is an embed of my high-fidelity prototype. Please explore it as you see fit.</p>
-        <iframe title="Hi" style={{border: "1px solid rgba(0, 0, 0, 0.1)", height: "80vh", width: "min(800px, 50vw)"}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMmlQK8HKhxU5z8IVgiOM92%2FSatsuki-Liu---Board-Game-Buddy%3Ftype%3Ddesign%26node-id%3D39-32%26scaling%3Dscale-down%26page-id%3D2%253A10%26starting-point-node-id%3D39%253A32" allowfullscreen></iframe>
+        <iframe title="Hi" style={{border: "1px solid rgba(0, 0, 0, 0.1)", height: "80vh", width: "min(1200px, 75vw)"}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMmlQK8HKhxU5z8IVgiOM92%2FSatsuki-Liu---Board-Game-Buddy%3Ftype%3Ddesign%26node-id%3D39-32%26scaling%3Dscale-down%26page-id%3D2%253A10%26starting-point-node-id%3D39%253A32" allowfullscreen></iframe>
+        <h1>Pitch Video</h1>
+        <iframe style={{width: "min(1200px, 75vw)", height: "min(675px, 42vw)"}} src="https://www.youtube.com/embed/RI_yxGDBDwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>Conclusion</h1>
+        <p>This entire process has been invaluable and incredibly informative throughout the entire quarter. As an aspiring front-end developer, my previous projects are often generated from scratch with consultation with graphic designers, so the world of UX has always been a bit of a black box to me. Thus, through the ten weeks of this course, the process has been demystified for me and I believe I will be able to be both a better humanist and a better programmer because of it.</p>
+        <p>Throughout this quarter, I was beset on multiple fronts by illness and family issues, so it was not without its challenges. I have learned that the social aspects of UX can be rather difficult and awkward without proper preparation, as a lot of my testing and feedback sessions were conducted ad hoc because of my limited availability and lack of mental wherewithal, but I was able to still get necessary feedback throughout the process. Even if I did not have these setbacks, however, this was the most difficult portion of the process by far, as fielding volunteers for this was much more difficult than I had anticipated. It's definitely food for thought for future endeavors.</p>
+        <p>All in all, I am proud of what I have created and believe that I have done an adequate job through this project. In the future, I would obviously want to dedicate more time and effort to this project, hopefully during a period of my life when I did not fall sick twice during one quarter, but c'est la vie. Future changes I would make to this design would include more features regarding social networking and friends lists so that users would not be forced to share a URL with each other every time they wanted to play a game, as well as adding a lists feature to save favorite games instead of having to search up the game every time.</p>
       </div>
+      <footer></footer>
     </div>
   );
 }
